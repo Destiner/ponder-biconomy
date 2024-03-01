@@ -25,13 +25,11 @@ export default createConfig({
         ),
         parameter: "account",
       },
-      startBlock: 45000000,
     },
     "BiconomyAccountFactory 2": {
       abi: biconomyAccountFactory2Abi,
       address: BICONOMY_ACCOUNT_FACTORY_2_ADDRESS,
       network: "polygonMumbai",
-      startBlock: 45000000,
     },
   },
 });
